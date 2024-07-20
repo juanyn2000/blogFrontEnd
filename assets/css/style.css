@@ -1,0 +1,614 @@
+/* header  */
+
+* {
+  font-family: "poppins", sans-serif;
+  color: #171717;
+}
+body {
+  margin: auto;
+  width: 1280px;
+  height: 1849px;
+  top: -551px;
+  left: -1208px;
+}
+
+.body__header {
+  display: flex;
+  height: 130px;
+  border-bottom: #cccccc 2px solid;
+  align-items: center;
+  margin-left: 105px;
+}
+.body__header--logo {
+  width: 55px;
+  height: 55px;
+  top: 38px;
+  left: 109px;
+  border-radius: 10%;
+}
+.body__header--text {
+  margin: 0px 0px 0px 25px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+/* section novedades */
+
+.novedades {
+  border-bottom: #cccccc 2px solid;
+  margin-left: 105px;
+  padding-bottom: 65px;
+}
+.novedades__contenedor {
+  display: flex;
+}
+.contenedor__sectionLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.novedades__contenedor--tittle {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+}
+
+.sectionLeft__LBootstrap--logoBootstrap {
+  border-radius: 20px;
+  width: 603px;
+  height: 314px;
+  top: 226px;
+  left: 105px;
+}
+
+.contenedor__sectionLeft--date {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+
+.contenedor__sectionLeft--subtittle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+.sectionLeft__contLogo {
+  display: flex;
+  align-items: center;
+}
+
+.sectionLeft__contLogo--logo_D_L {
+  width: 60px;
+  height: 60px;
+  top: 653px;
+  left: 105px;
+  border-radius: 77px;
+}
+
+.sectionLeft__contLogo--text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* section "novedades" right */
+
+.sectionRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 56px;
+}
+
+/* JS card1 */
+
+.sectionRight__card1 {
+  display: flex;
+  align-items: center;
+  height: 145px;
+}
+
+.card1__leftSide--logo_H_js {
+  width: 189px;
+  height: 145px;
+  top: 226px;
+  left: 764px;
+  border-radius: 20px;
+}
+
+.card1__rightSide {
+  display: flex;
+  flex-direction: column;
+  margin-left: 31px;
+  height: 150px;
+  padding-top: 15px;
+}
+.card1__rightSide--date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.card1__rightSide--subtittle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+/* This section is for the logo and text of "Desafio Latam". all cards use the same class  */
+
+.rightSide__contDesafioLatam {
+  display: flex;
+  align-items: center;
+}
+
+.rightSide__contDesafioLatam--logo_D_l {
+  width: 39.79px;
+  height: 40px;
+  left: 983px;
+  border-radius: 77px;
+}
+.rightSide__contDesafioLatam--text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+/* "Semantic labels" card2  */
+
+.sectionRight__card2 {
+  display: flex;
+  align-items: center;
+  height: 145px;
+}
+
+.card2__leftSide--logo_H_js {
+  width: 189px;
+  height: 145px;
+  top: 226px;
+  left: 764px;
+  border-radius: 20px;
+}
+
+.card2__rightSide {
+  display: flex;
+  flex-direction: column;
+  margin-left: 31px;
+  height: 150px;
+  padding-top: 15px;
+}
+.card2__rightSide--date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.card2__rightSide--subtittle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+/* "React" card2  */
+
+.sectionRight__card3 {
+  display: flex;
+  align-items: center;
+  height: 145px;
+}
+
+.card3__leftSide--logo_H_js {
+  width: 189px;
+  height: 145px;
+  top: 226px;
+  left: 764px;
+  border-radius: 20px;
+}
+
+.card3__rightSide {
+  display: flex;
+  flex-direction: column;
+  margin-left: 31px;
+  height: 150px;
+  padding-top: 15px;
+}
+.card3__rightSide--date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.card3__rightSide--subtittle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+/* seccion media */
+
+.body {
+  display: flex;
+  border-bottom: #cccccc 2px solid;
+  margin-top: 58px;
+  margin-left: 105px;
+}
+
+.body__populares--populares {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+}
+
+.populares__leftInt {
+  display: flex;
+  margin-bottom: 47px;
+}
+
+.leftInt__left1{
+
+}
+
+.left1__card1 {
+  margin-bottom: 58px;
+}
+
+.left1__card1--logo {
+  width: 298px;
+  height: 200px;
+  top: 900px;
+  left: 105px;
+  border-radius: 20px;
+}
+
+.left1__card1--date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.left1__card1--tittle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+/* This section is for the logo and text of "Desafio Latam". all cards use the same class en section media */
+
+.card1__dLatam {
+  display: flex;
+  align-items: center;
+}
+
+.card1__dLatam--logo_D_l {
+  width: 39.79px;
+  height: 40px;
+  left: 983px;
+  border-radius: 77px;
+}
+.card1__dLatam--text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+/* card 2  */
+
+.left1__card2 {
+  margin-bottom: 58px;
+}
+
+.left1__card2--logo {
+  width: 298px;
+  height: 200px;
+  top: 900px;
+  left: 105px;
+  border-radius: 20px;
+}
+
+.left1__card2--date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.left1__card2--tittle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+/* left side 2  */
+
+.leftInt__left2{
+  margin-left: 25px;
+}
+
+
+.left2__card3 {
+  margin-bottom: 58px;
+}
+
+.left2__card3--logo {
+  width: 298px;
+  height: 200px;
+  top: 900px;
+  left: 105px;
+  border-radius: 20px;
+}
+
+.left2__card3--date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.left2__card3--tittle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+/* card 4  */
+
+.left2__card4 {
+  margin-bottom: 58px;
+}
+
+.left2__card4--logo {
+  width: 298px;
+  height: 200px;
+  top: 900px;
+  left: 105px;
+  border-radius: 20px;
+}
+
+.left2__card4--date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.left2__card4--tittle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+/* right side */
+
+.left__left2 {
+  margin-left: 31px;
+}
+
+.left2__card2 {
+  margin-bottom: 58px;
+}
+
+/* column-body right*/
+
+.body__right {
+  margin-left: 141px;
+}
+/* caja HTML */
+
+.right__html {
+  display: flex;
+  align-items: center;
+  width: 298px;
+  height: 89px;
+  border-radius: 10px;
+  background-color: #e93e30;
+  justify-content: space-between;
+  padding-right: 15px;
+  margin-bottom: 51px;
+}
+
+.right__html--logoHTML {
+  width: 85px;
+  height: 74px;
+  left: 883px;
+}
+.right__html--textHTML {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+/* caja JS */
+
+.right__js {
+  display: flex;
+  align-items: center;
+  width: 298px;
+  height: 89px;
+  border-radius: 10px;
+  background-color: #f7e018;
+  justify-content: space-between;
+  padding-right: 15px;
+  margin-bottom: 51px;
+}
+
+.right__js--logoJS {
+  width: 85px;
+  height: 74px;
+  left: 883px;
+}
+.right__js--textJS {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+/* caja CSS */
+
+.right__css {
+  display: flex;
+  align-items: center;
+  width: 298px;
+  height: 89px;
+  border-radius: 10px;
+  background-color: #299ed5;
+  justify-content: space-between;
+  padding-right: 15px;
+  margin-bottom: 51px;
+}
+
+.right__css--logoCSS {
+  width: 85px;
+  height: 74px;
+  left: 883px;
+}
+.right__css--textCSS {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+/* caja REACT */
+
+.right__react {
+  display: flex;
+  align-items: center;
+  width: 298px;
+  height: 89px;
+  border-radius: 10px;
+  background-color: #292c33;
+  justify-content: space-between;
+  padding-right: 15px;
+  margin-bottom: 51px;
+}
+
+.right__react--logoREACT {
+  width: 85px;
+  height: 74px;
+  left: 883px;
+}
+.right__react--textREACT {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+/* caja VUE */
+
+.right__vue {
+  display: flex;
+  align-items: center;
+  width: 298px;
+  height: 89px;
+  border-radius: 10px;
+  background-color: #67c770;
+  justify-content: space-between;
+  padding-right: 15px;
+  margin-bottom: 51px;
+}
+
+.right__vue--logoVUE {
+  width: 85px;
+  height: 74px;
+  left: 883px;
+}
+.right__vue--textVUE {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+/* caja Bootstrap */
+
+.right__bootstrap {
+  display: flex;
+  align-items: center;
+  width: 298px;
+  height: 89px;
+  border-radius: 10px;
+  background-color: #563d7c;
+  justify-content: space-between;
+  padding-right: 15px;
+  margin-bottom: 51px;
+}
+
+.right__bootstrap--logoBOOTSTRAP {
+  width: 85px;
+  height: 74px;
+  left: 883px;
+}
+.right__bottstrap--textBOOTSTRAP {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.body__right--p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 27px;
+  padding-top: 27px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 105px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+}
+.footer__logo--logo_D_L {
+  width: 55px;
+  height: 55px;
+  top: 1742px;
+  left: 105px;
+  border-radius: 10px;
+}
+.footer_logo--p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.footer__p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
