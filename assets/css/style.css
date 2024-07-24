@@ -12,21 +12,21 @@ body {
   left: -1208px;
 }
 
-.body__header {
+.header {
   display: flex;
   height: 130px;
   border-bottom: #cccccc 2px solid;
   align-items: center;
   margin-left: 105px;
 }
-.body__header--logo {
+.header__logo {
   width: 55px;
   height: 55px;
   top: 38px;
   left: 109px;
   border-radius: 10%;
 }
-.body__header--text {
+.header__text {
   margin: 0px 0px 0px 25px;
   font-size: 24px;
   font-weight: 700;
@@ -44,19 +44,19 @@ body {
 .novedades__contenedor {
   display: flex;
 }
-.contenedor__sectionLeft {
-  display: flex;
-  flex-direction: column;
-}
 
-.novedades__contenedor--tittle {
+.novedades__tittle {
   font-size: 28px;
   font-weight: 700;
   line-height: 42px;
   text-align: left;
 }
+.contenedor__sectionLeft {
+  display: flex;
+  flex-direction: column;
+}
 
-.sectionLeft__LBootstrap--logoBootstrap {
+.sectionLeft__logoBootstrap {
   border-radius: 20px;
   width: 603px;
   height: 314px;
@@ -64,14 +64,14 @@ body {
   left: 105px;
 }
 
-.contenedor__sectionLeft--date {
+.sectionLeft__date {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   text-align: left;
 }
 
-.contenedor__sectionLeft--subtittle {
+.sectionLeft__subtittle {
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
@@ -83,7 +83,7 @@ body {
   align-items: center;
 }
 
-.sectionLeft__contLogo--logo_D_L {
+.sectionLeft__logo_D_L {
   width: 60px;
   height: 60px;
   top: 653px;
@@ -91,7 +91,7 @@ body {
   border-radius: 77px;
 }
 
-.sectionLeft__contLogo--text {
+.sectionLeft__text {
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
@@ -110,13 +110,13 @@ body {
 
 /* JS card1 */
 
-.sectionRight__card1 {
+.sectionRight__card {
   display: flex;
   align-items: center;
   height: 145px;
 }
 
-.card1__leftSide--logo_H_js {
+.card__logo {
   width: 189px;
   height: 145px;
   top: 226px;
@@ -124,41 +124,40 @@ body {
   border-radius: 20px;
 }
 
-.card1__rightSide {
+.card__rightSide {
   display: flex;
   flex-direction: column;
   margin-left: 31px;
   height: 150px;
   padding-top: 15px;
 }
-.card1__rightSide--date {
+.card__date {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
 }
 
-.card1__rightSide--subtittle {
+.card__subtittle {
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
   text-align: left;
 }
 
-/* This section is for the logo and text of "Desafio Latam". all cards use the same class  */
 
-.rightSide__contDesafioLatam {
+.card__contDesafioLatam {
   display: flex;
   align-items: center;
 }
 
-.rightSide__contDesafioLatam--logo_D_l {
+.card__logo_D_l {
   width: 39.79px;
   height: 40px;
   left: 983px;
   border-radius: 77px;
 }
-.rightSide__contDesafioLatam--text {
+.card__text {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -166,79 +165,7 @@ body {
   padding-left: 5px;
 }
 
-/* "Semantic labels" card2  */
 
-.sectionRight__card2 {
-  display: flex;
-  align-items: center;
-  height: 145px;
-}
-
-.card2__leftSide--logo_H_js {
-  width: 189px;
-  height: 145px;
-  top: 226px;
-  left: 764px;
-  border-radius: 20px;
-}
-
-.card2__rightSide {
-  display: flex;
-  flex-direction: column;
-  margin-left: 31px;
-  height: 150px;
-  padding-top: 15px;
-}
-.card2__rightSide--date {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}
-
-.card2__rightSide--subtittle {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 30px;
-  text-align: left;
-}
-
-/* "React" card2  */
-
-.sectionRight__card3 {
-  display: flex;
-  align-items: center;
-  height: 145px;
-}
-
-.card3__leftSide--logo_H_js {
-  width: 189px;
-  height: 145px;
-  top: 226px;
-  left: 764px;
-  border-radius: 20px;
-}
-
-.card3__rightSide {
-  display: flex;
-  flex-direction: column;
-  margin-left: 31px;
-  height: 150px;
-  padding-top: 15px;
-}
-.card3__rightSide--date {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}
-
-.card3__rightSide--subtittle {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 30px;
-  text-align: left;
-}
 
 /* seccion media */
 
@@ -248,28 +175,27 @@ body {
   margin-top: 58px;
   margin-left: 105px;
 }
+.populares__title{
+font-size: 28px;
+font-weight: 700;
+line-height: 42px;
+text-align: left;
 
-.body__populares--populares {
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 42px;
-  text-align: left;
 }
 
 .populares__leftInt {
   display: flex;
   margin-bottom: 47px;
 }
-
-.leftInt__left1{
-
+.populares__left2 {
+  margin-left: 25px;
 }
 
-.left1__card1 {
+.populares__card {
   margin-bottom: 58px;
 }
 
-.left1__card1--logo {
+.populares__logo {
   width: 298px;
   height: 200px;
   top: 900px;
@@ -277,14 +203,14 @@ body {
   border-radius: 20px;
 }
 
-.left1__card1--date {
+.populares__date {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
 }
 
-.left1__card1--tittle {
+.populares__tittle {
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
@@ -293,18 +219,18 @@ body {
 
 /* This section is for the logo and text of "Desafio Latam". all cards use the same class en section media */
 
-.card1__dLatam {
+.populares__dLatam {
   display: flex;
   align-items: center;
 }
 
-.card1__dLatam--logo_D_l {
+.populares__logo_D_l {
   width: 39.79px;
   height: 40px;
   left: 983px;
   border-radius: 77px;
 }
-.card1__dLatam--text {
+.populares__text {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -312,112 +238,18 @@ body {
   padding-left: 5px;
 }
 
-/* card 2  */
 
-.left1__card2 {
-  margin-bottom: 58px;
-}
-
-.left1__card2--logo {
-  width: 298px;
-  height: 200px;
-  top: 900px;
-  left: 105px;
-  border-radius: 20px;
-}
-
-.left1__card2--date {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}
-
-.left1__card2--tittle {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 30px;
-  text-align: left;
-}
-/* left side 2  */
-
-.leftInt__left2{
-  margin-left: 25px;
-}
-
-
-.left2__card3 {
-  margin-bottom: 58px;
-}
-
-.left2__card3--logo {
-  width: 298px;
-  height: 200px;
-  top: 900px;
-  left: 105px;
-  border-radius: 20px;
-}
-
-.left2__card3--date {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}
-
-.left2__card3--tittle {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 30px;
-  text-align: left;
-}
-
-/* card 4  */
-
-.left2__card4 {
-  margin-bottom: 58px;
-}
-
-.left2__card4--logo {
-  width: 298px;
-  height: 200px;
-  top: 900px;
-  left: 105px;
-  border-radius: 20px;
-}
-
-.left2__card4--date {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}
-
-.left2__card4--tittle {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 30px;
-  text-align: left;
-}
 
 /* right side */
 
-.left__left2 {
-  margin-left: 31px;
-}
 
-.left2__card2 {
-  margin-bottom: 58px;
-}
 
-/* column-body right*/
-
-.body__right {
+.right {
   margin-left: 141px;
 }
 /* caja HTML */
 
-.right__html {
+.categorys__html {
   display: flex;
   align-items: center;
   width: 298px;
@@ -429,12 +261,12 @@ body {
   margin-bottom: 51px;
 }
 
-.right__html--logoHTML {
+.categorys__logo {
   width: 85px;
   height: 74px;
   left: 883px;
 }
-.right__html--textHTML {
+.categorys__text {
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
@@ -443,7 +275,7 @@ body {
 
 /* caja JS */
 
-.right__js {
+.categorys__js {
   display: flex;
   align-items: center;
   width: 298px;
@@ -455,21 +287,11 @@ body {
   margin-bottom: 51px;
 }
 
-.right__js--logoJS {
-  width: 85px;
-  height: 74px;
-  left: 883px;
-}
-.right__js--textJS {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 48px;
-  color: #ffffff;
-}
+
 
 /* caja CSS */
 
-.right__css {
+.categorys__css {
   display: flex;
   align-items: center;
   width: 298px;
@@ -481,21 +303,11 @@ body {
   margin-bottom: 51px;
 }
 
-.right__css--logoCSS {
-  width: 85px;
-  height: 74px;
-  left: 883px;
-}
-.right__css--textCSS {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 48px;
-  color: #ffffff;
-}
+
 
 /* caja REACT */
 
-.right__react {
+.categorys__react {
   display: flex;
   align-items: center;
   width: 298px;
@@ -507,21 +319,11 @@ body {
   margin-bottom: 51px;
 }
 
-.right__react--logoREACT {
-  width: 85px;
-  height: 74px;
-  left: 883px;
-}
-.right__react--textREACT {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 48px;
-  color: #ffffff;
-}
+
 
 /* caja VUE */
 
-.right__vue {
+.categorys__vue {
   display: flex;
   align-items: center;
   width: 298px;
@@ -533,21 +335,11 @@ body {
   margin-bottom: 51px;
 }
 
-.right__vue--logoVUE {
-  width: 85px;
-  height: 74px;
-  left: 883px;
-}
-.right__vue--textVUE {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 48px;
-  color: #ffffff;
-}
+
 
 /* caja Bootstrap */
 
-.right__bootstrap {
+.categorys__bootstrap {
   display: flex;
   align-items: center;
   width: 298px;
@@ -559,19 +351,9 @@ body {
   margin-bottom: 51px;
 }
 
-.right__bootstrap--logoBOOTSTRAP {
-  width: 85px;
-  height: 74px;
-  left: 883px;
-}
-.right__bottstrap--textBOOTSTRAP {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 48px;
-  color: #ffffff;
-}
 
-.body__right--p {
+
+.categorys__paragraph {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -588,18 +370,18 @@ footer {
   margin-left: 105px;
 }
 
-.footer__logo {
+.footer__content {
   display: flex;
   align-items: center;
 }
-.footer__logo--logo_D_L {
+.footer__logo {
   width: 55px;
   height: 55px;
   top: 1742px;
   left: 105px;
   border-radius: 10px;
 }
-.footer_logo--p {
+.footer__text {
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
@@ -607,7 +389,7 @@ footer {
   margin-left: 5px;
 }
 
-.footer__p {
+.footer__paragraph {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
